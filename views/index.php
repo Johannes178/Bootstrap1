@@ -1,61 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-</head>
-
-<body>
-<div class="container" style="max-width: 80%;">
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">
-            <ion-icon name="leaf"></ion-icon>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home<span
-                            class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img1.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img2.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img3.jpg" alt="Third slide">
-            </div>
-        </div>
-    </div>
-
-    <main class="row" style="margin-top: 1em;">
-        <section class="col-sm-8">
-            <header class="row">
-                <div class="col">
-                    <h1>Phasellus ut risus accumsan, faucibus nunc et, tristique metus.</h1>
-                </div>
-            </header>
+<?php
+require_once('inc/header.php');
+require_once('inc/footer.php');
+require_once('inc/carousel.php');
+?>
 
             <article class="row">
                 <div class="col">
@@ -155,14 +102,3 @@
     </main>
 
 </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-</body>
-</html>
